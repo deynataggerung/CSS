@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+
+body {
+background: url("http://i.imgur.com/adlY7q3.jpg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+font-family: "PT Sans Narrow", Veranda;
+}
+
+#list_surround {
+left: 0;
+margin: 5px;
+width: 920px;
+}
+
+ {
+color: 1BA12B;
+}
+
+#sup{
+position" fixed;
+}
+
+a{
+color: #8ad76d;
+text-decoration: none;
+}
+
+a:visited {
+color: #FE9A2E;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+td {
+color: #8ad76d;
+}
+
+.td1{
+background-color: rgba(157, 242, 126, 0.2);
+}
+
+.td2{
+background-color: rgba(80, 153, 54, 0.2);
+}
+
+/* Category */
+
+.status_not_selected{
+line-height: 30px;
+text-align: right;
+border-right: 8px solid rgb(255,255,255);
+right: 0px;
+height: 30px;
+width: 150px;
+display: block;
+position: fixed;
+}
+
+td < a[href*="status=1"] { /*Currently Watching:Reading*/
+     top: 0px; 
+}
+
+td < a[href*="status=2"]{ /*Completed*/
+     top: 30px; 
+}
+
+td < a[href*="status=3"] { /*On-Hold*/
+     top: 60px;
+}
+
+td < a[href*="status=4"] { /*Dropped*/
+     top: 90px;
+}
+
+td < a[href*="status=6"] { /*Plan to Watch:Read*/
+     top: 120px; 
+}
+
+td < a[href*="status=7"] { /*All Anime:Manga*/
+     top: 150px; 
+}
+
+.status_selected a {
+     color: rgba(255, 255, 199, 1);
+     text-transform: uppercase;
+     border-left: 0px;
+     border-right: 5px solid rgba(255, 255, 199, 1) !important;
+}
